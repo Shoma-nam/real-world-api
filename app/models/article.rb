@@ -1,5 +1,5 @@
 class Article < ApplicationRecord
-    has_many :article_tags
+    has_many :article_tags, dependent: :destroy
     has_many :tags, through: :article_tags
 
     before_save :set_slug
@@ -7,6 +7,8 @@ class Article < ApplicationRecord
     private
 
     def set_slug
-      self.slug = title.parameterize if title
-    end
+
+        self.slug = title
+
+    end    
 end
