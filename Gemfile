@@ -50,3 +50,4 @@ gem 'rack-cors'
 
 gem 'mysql2', '>= 0.4.4'
 
+gem 'dotenv-rails', groups: [:development, :test]
