@@ -112,6 +112,7 @@ GEM
     minitest (5.20.0)
     msgpack (1.7.2)
     mutex_m (0.2.0)
+    mysql2 (0.5.6)
     net-imap (0.4.9.1)
       date
       net-protocol
@@ -201,6 +202,7 @@ DEPENDENCIES
   bootsnap
   debug
   error_highlight (>= 0.4.0)
+  mysql2 (>= 0.4.4)
   puma (>= 5.0)
   rack-cors
   rails (~> 7.1.2)

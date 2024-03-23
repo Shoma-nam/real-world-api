@@ -48,3 +48,4 @@ group :development do
 end
 gem 'rack-cors'
 
+gem 'mysql2', '>= 0.4.4'
