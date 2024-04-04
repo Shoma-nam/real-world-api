@@ -22,3 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+* ![インフラ構成図](https://github.com/Shoma-nam/real-world-api/blob/main/README2.md.drawio.svg)
